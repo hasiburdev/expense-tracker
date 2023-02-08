@@ -40,7 +40,10 @@ const Form = () => {
   const handleUpdate = (e) => {
     e.preventDefault();
     dispatch(
-      changeTransaction({ id: editing.id, data: { name, type, amount } })
+      changeTransaction({
+        id: editing.id,
+        data: { name, type, amount: Number(amount) },
+      })
     );
     reset();
     setEditMode(false);

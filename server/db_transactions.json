@@ -7,34 +7,16 @@
       "amount": 1000000
     },
     {
-      "id": 2,
-      "name": "Family Expenses",
-      "type": "expense",
-      "amount": 200000
-    },
-    {
       "name": "Lunch",
       "type": "expense",
-      "amount": 50,
+      "amount": 75,
       "id": 3
-    },
-    {
-      "name": "Google",
-      "type": "income",
-      "amount": 1000000,
-      "id": 4
     },
     {
       "name": "Netflix",
       "type": "income",
       "amount": 5000,
       "id": 5
-    },
-    {
-      "name": "Tution Fees",
-      "type": "expense",
-      "amount": 5000,
-      "id": 6
     }
   ]
 }
